@@ -22,6 +22,6 @@ dist:v_0-002
 	:revision       "0.002"^^xsd:string ;
 	:file-release   <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/MooseX-hasn-t-0.002.tar.gz> ;
 	dcs:changeset [
-		dcs:item [ rdfs:label "Note dependency on Perl 5.10."@en ];
+		dcs:item [ rdfs:label "Note dependency on Perl 5.10."@en ; dcs:fixes <http://purl.org/NET/cpan-uri/rt/ticket/76399> ];
 	].
 

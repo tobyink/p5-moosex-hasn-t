@@ -1,0 +1,24 @@
+@prefix dbug: <http://ontologi.es/doap-bugs#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prio: <http://purl.org/NET/cpan-uri/rt/priority/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rt: <http://purl.org/NET/cpan-uri/rt/ticket/> .
+@prefix status: <http://purl.org/NET/cpan-uri/rt/status/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+_:r1347365201r0 a foaf:Agent ;
+	foaf:mbox <mailto:ANDK@cpan.org> .
+_:r1347365201r1 a foaf:Agent ;
+	foaf:nick "TOBYINK" .
+<http://purl.org/NET/cpan-uri/dist/MooseX-hasn-t/project> dbug:issue <http://purl.org/NET/cpan-uri/rt/ticket/76399> .
+<http://purl.org/NET/cpan-uri/rt/ticket/76399> dbug:assignee _:r1347365201r1 ;
+	dbug:id "76399"^^xsd:string ;
+	dbug:page <https://rt.cpan.org/Ticket/Display.html?id=76399> ;
+	dbug:reporter _:r1347365201r0 ;
+	dbug:status status:resolved ;
+	dc:created "2012-04-08T08:04:32"^^xsd:dateTime ;
+	dc:modified "2012-09-11T13:04:34"^^xsd:dateTime ;
+	a dbug:Issue ;
+	rdfs:label "Fails with 5.8.x" .
