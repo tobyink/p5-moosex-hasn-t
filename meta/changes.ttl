@@ -15,3 +15,13 @@ dist:v_0-001
 	:file-release   <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/MooseX-hasn-t-0.001.tar.gz> ;
 	rdfs:label      "April Fools' Day" .
 
+dist:project :release dist:v_0-002 .
+dist:v_0-002
+	a               :Version ;
+	dc:issued       "2012-09-11"^^xsd:date ;
+	:revision       "0.002"^^xsd:string ;
+	:file-release   <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/MooseX-hasn-t-0.002.tar.gz> ;
+	dcs:changeset [
+		dcs:item [ rdfs:label "Note dependency on Perl 5.10."@en ];
+	].
+

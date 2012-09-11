@@ -2,9 +2,10 @@ package MooseX::hasn::t;
 
 BEGIN {
 	$MooseX::hasn::t::AUTHORITY = 'cpan:TOBYINK';
-	$MooseX::hasn::t::VERSION   = '0.001';
+	$MooseX::hasn::t::VERSION   = '0.002';
 }
 
+use 5.010;
 use strict qw(subs vars);
 no warnings;
 
