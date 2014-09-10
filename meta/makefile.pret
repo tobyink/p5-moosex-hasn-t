@@ -1,0 +1,7 @@
+@prefix deps:  <http://ontologi.es/doap-deps#> .
+
+<http://purl.org/NET/cpan-uri/dist/MooseX-hasn-t/project>
+	deps:runtime-requirement         [ deps:on "Moose 2.00"^^deps:CpanId ];
+	deps:test-requirement            [ deps:on "Test::More 0.61"^^deps:CpanId ];
+	deps:test-requirement            [ deps:on "Test::Exception"^^deps:CpanId ].
+
