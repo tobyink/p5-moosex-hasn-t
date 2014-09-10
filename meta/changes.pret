@@ -25,3 +25,10 @@ dist:v_0-002
 		dcs:item [ rdfs:label "Note dependency on Perl 5.10."@en ; dcs:fixes <http://purl.org/NET/cpan-uri/rt/ticket/76399> ];
 	].
 
+
+`MooseX-hasn-t 0.003 cpan:TOBYINK`
+	issued    2014-09-10;
+	changeset [
+		item "Switch to Dist::Inkt."^^Packaging;
+	].
+

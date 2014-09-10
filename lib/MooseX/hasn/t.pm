@@ -2,7 +2,7 @@ package MooseX::hasn::t;
 
 BEGIN {
 	$MooseX::hasn::t::AUTHORITY = 'cpan:TOBYINK';
-	$MooseX::hasn::t::VERSION   = '0.002';
+	$MooseX::hasn::t::VERSION   = '0.003';
 }
 
 use 5.010;
